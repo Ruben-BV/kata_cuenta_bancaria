@@ -48,6 +48,7 @@ public class CuentaAhorro extends Cuenta {
             saldo = saldo - 4*comisionMensual;
             comisionMensual = 1000f;
             saldo = saldo - (numRetiros-4)*comisionMensual;
+            super.consignarInteresMensual();
             System.out.println("Extracto mensual ejecutado.\nSu saldo actual es: " + saldo + "$.");
         }
         
@@ -64,7 +65,7 @@ public class CuentaAhorro extends Cuenta {
             comisionMensual = 1000f;
         }
 
-        return  " Saldo: " + saldo +
+        return  " Saldo: " + saldo + "$" +
                 "\n Comisión mensual: " + comisionMensual + "$" +
                 "\n Transacciones realizadas: " + (numConsign + numRetiros);
     }
