@@ -38,3 +38,14 @@ Posee un atributo de sobregiro, el cual se inicializa en cero. Se redefinen los 
 - Repositorio de Github
 - Captura de pantalla del diagrama de clase o enlace público al archivo de diagrams.net
 - Captura de pantalla de la sección testing de VSCode que muestre que se ha complido con la cobertura de tests
+
+## UML de Clases
+<p align="center">
+	  <img src="https://github.com/Ruben-BV/kata_cuenta_bancaria/blob/dev/src/main/resources/2024_11_12_Cuenta_bancaria_UML_Clases.jpg" />
+</p>
+
+## Cobertura de los tests
+<p align="center">
+	  <img src="https://github.com/Ruben-BV/kata_cuenta_bancaria/blob/dev/src/main/resources/2024_11_27_Tests_Coverage.jpg" />
+</p>
+
