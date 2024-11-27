@@ -1,7 +1,7 @@
 package dev.ruben.kata_cuenta_bancaria;
 
 public class CuentaCorriente extends Cuenta {
-    private float sobregiro = 0f;
+    public float sobregiro = 0f;
 
     public CuentaCorriente(float saldo, float tasaAnual, float sobregiro) {
         super(saldo, tasaAnual);
