@@ -81,7 +81,7 @@ public class CuentaTest {
                 "\n Nº consignaciones: 0" +
                 "\n Nº retiros: 0" +
                 "\n Tasa anual: 3.0%" +
-                "\n Comisión mensual: 0.0€", cuenta.imprimirCuenta() );
+                "\n Comisión mensual: 0.0$", cuenta.imprimirCuenta() );
     }
 
 

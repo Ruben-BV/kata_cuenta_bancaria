@@ -18,7 +18,7 @@ public class Cuenta {
         if (cantidad > 0){
             saldo = cantidad + saldo;
             numConsign++;
-            System.out.println("Consignación realizada con éxito\nSu saldo actual es: " + saldo + "€.");
+            System.out.println("Consignación realizada con éxito\nSu saldo actual es: " + saldo + "$.");
         }
         else {
             System.out.println("La cantidad a consignar ha de ser mayor que cero.");
@@ -30,7 +30,7 @@ public class Cuenta {
         if(cantidad <= saldo && cantidad > 0) {
             saldo = saldo - cantidad;
             numRetiros++;
-            System.out.println("Retiro de dinero realizado con éxito. Su saldo actual es: " + saldo + "€.");
+            System.out.println("Retiro de dinero realizado con éxito. Su saldo actual es: " + saldo + "$.");
         }
         else if (cantidad > saldo){
             System.out.println("No hay suficiente saldo para realizar el retiro.");
@@ -49,7 +49,7 @@ public class Cuenta {
         saldo = saldo - comisionMensual;
         consignarInteresMensual();
 
-        System.out.println("Extracto mensual ejecutado.\nSu saldo actual es: " + saldo + "€.");
+        System.out.println("Extracto mensual ejecutado.\nSu saldo actual es: " + saldo + "$.");
     }
 
     public String imprimirCuenta() {
@@ -57,7 +57,7 @@ public class Cuenta {
                 "\n Nº consignaciones: " + numConsign +
                 "\n Nº retiros: " + numRetiros +
                 "\n Tasa anual: " + tasaAnual*100 + "%" +
-                "\n Comisión mensual: " + comisionMensual + "€";
+                "\n Comisión mensual: " + comisionMensual + "$";
     }
 
 
