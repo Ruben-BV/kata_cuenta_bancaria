@@ -14,8 +14,8 @@ public class CuentaCorriente extends Cuenta {
         saldo = saldo - cantidad;
         numRetiros++;
 
-        if(cantidad > saldo) {
-            sobregiro = sobregiro + (cantidad - saldo);
+        if(saldo < 0) {
+            sobregiro = - saldo;
             saldo = 0;
         }
 
